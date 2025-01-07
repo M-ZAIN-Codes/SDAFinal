@@ -20,3 +20,12 @@ SDAFinal
 10. Design Principles: Adheres to SOLID principles (single responsibility, abstraction via services).
 
 11. Extensibility: The architecture allows for future enhancements, like integrating a database or adding new features.
+12. Summary of What the Code Does:
+
+1. Allows users to place bids and update their profiles.  
+2. Enables product owners to upload products and select winning bids.  
+3. Manages bids with features to view, update, validate, and close them.  
+4. Implements business logic for handling bids through the BidService class.  
+5. Stores and retrieves bid data using an in-memory BidRepository.  
+6. Simulates real-world interactions in the Main class (application entry point).  
+7. Ensures modular and maintainable code by using a layered architecture.  
